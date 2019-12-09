@@ -1,0 +1,19 @@
+{
+    "require": {
+        "symfony/event-dispatcher": "^5.0"
+    },
+    "require-dev" : {
+        "phpunit/phpunit": "^8.4"
+    },
+    "config": {
+        "platform": {
+            "php": "7.4.0"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "RewardsProgram\\": "src/",
+            "RewardsProgramTest\\": "test/"
+        }
+    }
+}
